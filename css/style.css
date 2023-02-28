@@ -1,0 +1,63 @@
+body {
+    background-color: darkslateblue;
+    text-align: center;
+    font-family: 'VT323';
+    font-size:large;
+}
+
+h1 {
+    color: antiquewhite;
+}
+
+form>input,
+select,
+button {
+    background-color: antiquewhite;
+    border: 2px solid antiquewhite;
+    color: midnightblue;
+}
+
+div {
+    margin: 20px;
+}
+
+div>button {
+    margin: 10px;
+    font-family: 'VT323';
+    font-size: medium;
+}
+
+img{
+    height: 60px;
+}
+
+.light {
+    text-align: center;
+    display: inline-table;
+    background-color: #9C95DC;
+    height: 18.5rem;
+    width: 15rem;
+    margin: 10px;
+    color: #211d48;
+    border-radius: 35%;
+}
+
+.dark {
+    text-align: center;
+    display: inline-table;
+    background-color: #211d48;
+    height: 18.5rem;
+    width: 15rem;
+    margin: 10px;
+    color: #9C95DC;
+    border-radius: 35%;
+}
+
+#attribution>a{
+    color: antiquewhite;
+    opacity: 20%;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    text-decoration: none;
+}
