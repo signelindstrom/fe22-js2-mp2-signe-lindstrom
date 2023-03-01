@@ -1,7 +1,7 @@
 import { Tamagotchi } from "./modules/obj.js";
 
-const btn = document.querySelector('#createBtn');
-btn.addEventListener('click', tamagotchiGame);
+const form = document.querySelector('#inputForm');
+form.addEventListener('submit', tamagotchiGame);
 
 
 function tamagotchiGame(event) {
