@@ -40,6 +40,8 @@ img{
     margin: 10px;
     color: #211d48;
     border-radius: 35%;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
 }
 
 .dark {
@@ -51,6 +53,8 @@ img{
     margin: 10px;
     color: #9C95DC;
     border-radius: 35%;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
 }
 
 #attribution>a{
